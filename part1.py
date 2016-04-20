@@ -17,6 +17,7 @@ def main():
     roulette(600, file, w, G)
     roulette(900, file, w, G)
     plt.savefig('roulette.png')
+    plt.close()
 
     file.write("***Stochastic sampling\n")
     stochastic(60, file, w, G)
