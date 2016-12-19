@@ -1,4 +1,4 @@
-It takes a while to run because of the amount of trials and generations, but it shouldn't take longer than 5 minutes.
+#Hawks and Doves 
 
 Inside the file, I have three methods: infinite, roulette, and stochastic.
 Infinite is the first part - implementing the three formulas in the paper and showing that the population of hawks and doves will converge to 5/12 and 7/12 for an "infinite" population. I run this for ten trials, for 200 generations each. The output can be seen in the file "results.txt", and shows, for each trial, the random starting conditions and the eventual convergence.
